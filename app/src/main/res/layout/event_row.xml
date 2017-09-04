@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            >
+
+            <TextView
+                android:id="@+id/event_initiator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:paddingTop="30dp"
+                android:padding="15dp"
+                android:text="Admin Created the event at: 1/1/2016 12:00 AM"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/event_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+
+                android:src="@mipmap/ic_image" />
+
+
+            <TextView
+
+                android:id="@+id/event_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/event_image"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:paddingTop="2dp"
+                android:text="Title Goes here"
+
+                android:textColor="@color/colorAccent"
+                android:layout_toLeftOf="@+id/event_image" />
+            <TextView
+                android:id="@+id/event_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Description Goes here"
+                android:textColor="@color/colorAccent"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/event_start_end_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="2dp"
+                android:text="From: 1/1/2017 To: 1/1/2018"
+                android:textColor="@color/colorAccent" />
+
+
+        </LinearLayout>
+
